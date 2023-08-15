@@ -4,10 +4,12 @@ public class Main{
     {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-        if (a%2==0)
-        System.out.print("No. is EVEN");
+        if (a>0)
+        System.out.print("No. is POSITIVE");
+        else if(a<0)
+        System.out.print("No. is Negative");
         else
-        System.out.print("No. is ODD");
-    }
+        System.out.print("ZERO");    
+        }
     
 }
